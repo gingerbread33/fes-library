@@ -231,16 +231,21 @@ FEATURES
 }
 
 .book {
+    align-items: center;
     width: 25%;
     padding: 24px;
 }
 
 .book__img {
+    border-radius: 30px;
     max-height: 380px;
 }
 
 .book__img--wrapper {
     margin-bottom: 8px;
-    border-radius: 4px;
     overflow: hidden;
+}
+
+.book:hover .book__img {
+    transform: scale(1.3);
 }
