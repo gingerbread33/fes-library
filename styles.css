@@ -234,18 +234,29 @@ FEATURES
     align-items: center;
     width: 25%;
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .book__img {
     border-radius: 30px;
-    max-height: 380px;
+    max-height: 300px;
+    transition: all  380ms ease;
+    cursor: no-drop;
 }
 
 .book__img--wrapper {
     margin-bottom: 8px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
 .book:hover .book__img {
     transform: scale(1.3);
+}
+
+.book__title {
+    font-size: 20px;
+    margin-bottom: 8px;
 }
