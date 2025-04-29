@@ -306,6 +306,9 @@ FOOTER
 
 footer {
     background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer__logo {
@@ -327,5 +330,5 @@ footer {
 }
 
 .footer__link {
-    
+    padding: 0 8px;
 }
