@@ -266,6 +266,7 @@ HIGHLIGHTS
 
 .highlight__wrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .highlight {
@@ -273,7 +274,6 @@ HIGHLIGHTS
     width: calc(100% / 3);
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -298,6 +298,7 @@ HIGHLIGHTS
 .highlight__subtitle {
     font-size: 20px;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 /* 
@@ -309,7 +310,6 @@ FEATURES
 #features {
     padding-top: 8vw;
     background-color: rgba(115, 66, 214, 0.1);
-    height: 750px;
 }
 
 .books {
@@ -445,6 +445,14 @@ footer {
 
 .btn__menu {
     display: block;
+}
+
+.highlight {
+    width: 100%;
+}
+
+.highlight:not(:last-child) {
+    margin-bottom: 24px;
 }
 }
 
